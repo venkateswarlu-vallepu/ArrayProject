@@ -163,7 +163,7 @@ let capitals = ["Amaravati","Itanagar","Dispur","Patna","Naya Raipur","Panaji","
       return num >= 100;
       });
       console.log("Result:-")
-      if(numbersResult == true){
+      if(numbersResult === true){
         console.log("Given numbers all are satisfying the given condition")
       } else{
         console.log("Given numbers all are not satisfying the given condition")
@@ -174,19 +174,19 @@ let capitals = ["Amaravati","Itanagar","Dispur","Patna","Naya Raipur","Panaji","
      <button type='button' onClick={()=>{
       let marks = [43,53,78,91,99,64,54,23,67,23,87,69,56,34,32,21]
       let firstClassMarks = marks.filter((marks)=>{
-        return marks >= 80 && marks <= 90;
+        return marks >= 80 && marks <= 100;
       });
       console.log(firstClassMarks);
       console.log("Even Number")
       let marks2 = [56,76,89,64,90,73,82,89,87,92,41,83];
       let evenNumber = marks2.filter((marks2)=>{
-      return marks2 % 2 == 0;
+      return marks2 % 2 === 0;
       });
       console.log(evenNumber)
       console.log("Odd Number")
       let marks3 = [89,64,90,73,82,89,87,92,41,83];
       let oddNumber = marks3.filter((marks3)=>{
-      return marks3 % 2 != 0;
+      return marks3 % 2 !== 0;
       });
       console.log(oddNumber)
       console.log("-----------------------------------------")
