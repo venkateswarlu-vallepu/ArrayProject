@@ -136,6 +136,15 @@ let capitals = ["Amaravati","Itanagar","Dispur","Patna","Naya Raipur","Panaji","
        console.log("-----------------------------------------")
       }}>splice</button>
       <br></br>
+
+
+
+
+
+
+
+
+      
       <h1>Day-2 Array Methods</h1>
 
     <button type='button' onClick={()=>{
