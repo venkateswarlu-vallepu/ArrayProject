@@ -22,7 +22,7 @@ let cars =["Tesla","Audi","Merc","Rolls-Royce","Range-Rover","Lamborghini","Hond
 let states = ["Andhra Pradesh","Arunachal Pradesh","Assam","Bihar","Chhattisgarh","Goa","Gujarat","Haryana","Himachal Pradesh"]
 
 let capitals = ["Amaravati","Itanagar","Dispur","Patna","Naya Raipur","Panaji","Gandhinagar","Chandigarh","Shimla"]
-
+ 
 
   return (
     <div className="App">
